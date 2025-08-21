@@ -1,0 +1,8 @@
+export const appwriteConfig = {
+  endpoint: process.env.EXPO_PUBLIC_APPWRITE_ENDPOINT,
+  platform: "com.banifazar.foodordering",
+  projectId: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_ID,
+  projectName: process.env.EXPO_PUBLIC_APPWRITE_PROJECT_NAME,
+  databaseId: process.env.EXPO_PUBLIC_APPWRITE_DATABASE_ID,
+  userCollectionId: process.env.EXPO_PUBLIC_APPWRITE_USER_COLLECTION_ID,
+};
